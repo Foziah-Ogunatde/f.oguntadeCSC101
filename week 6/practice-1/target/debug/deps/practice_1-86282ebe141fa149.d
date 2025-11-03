@@ -1,0 +1,5 @@
+C:\Users\alham\OneDrive\Documents\f.oguntadeCSC101\week 6\practice-1\target\debug\deps\practice_1-86282ebe141fa149.d: src\main.rs
+
+C:\Users\alham\OneDrive\Documents\f.oguntadeCSC101\week 6\practice-1\target\debug\deps\libpractice_1-86282ebe141fa149.rmeta: src\main.rs
+
+src\main.rs:
