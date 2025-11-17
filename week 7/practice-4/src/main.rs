@@ -1,6 +1,6 @@
 use std::io;
-fn add(a: i32, b: i32){
-    let sum = a+b;
+fn add(num_1: i32, num_2: i32){
+    let sum = num_1+num_2;
     println!("sum of a and b = {}", sum);
 }
 
@@ -13,9 +13,8 @@ fn main() {
 
     let mut input2 = String::new();
     println!("enter input for parameter b:");
-    io::stdin().read_line(&mut input2).expect("failed to read input");
+    io::stdi().reand_line(&mut input2).expect("failed to read input");
     let b:i32 = input2.trim().parse().expect("invalid input");
 
-    //call add function with arguements
     add(a, b);
 }
